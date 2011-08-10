@@ -1,3 +1,6 @@
+#Aptitude
+apt-get install aptitude -y
+
 # Apache2, Mysql, PHP5
 apt-get install lamp-server^ -y
 
