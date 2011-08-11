@@ -43,7 +43,7 @@ pear install PHP_CodeSniffer
 pear install PhpDocumentor
 
 # PHP Sqlite
-apt-get install php5-sqlite
+apt-get install php5-sqlite -y
 
 # PHP Curl
 apt-get install curl libcurl3 libcurl3-dev php5-curl -y
