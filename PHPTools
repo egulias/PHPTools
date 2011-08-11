@@ -1,8 +1,14 @@
 #Aptitude
 apt-get install aptitude -y
 
-# Apache2, Mysql, PHP5
-apt-get install lamp-server^ -y
+# Apache2
+apt-get install apache2 -y
+
+#MySql
+apt-get install mysql-server -y
+
+#PHP5
+apt-get install php5 -y
 
 # Pear
 apt-get install php-pear -y
