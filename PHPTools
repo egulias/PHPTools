@@ -9,6 +9,7 @@ apt-get install mysql-server -y
 
 #PHP5
 apt-get install php5 -y
+apt-get install php5-mysql -y
 
 # Pear
 apt-get install php-pear -y
@@ -29,7 +30,7 @@ apt-get install php5-xsl
 pear channel-discover pear.phpunit.de
 pear channel-discover components.ez.no
 pear channel-discover pear.symfony-project.com
-pear -d preferred_state=beta install phpunit/PHPUnit
+pear install phpunit/PHPUnit-beta
 apt-get install phpunit -y
 
 # PHP Depend
