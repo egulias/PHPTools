@@ -10,6 +10,7 @@ apt-get install mysql-server -y
 #PHP5
 apt-get install php5 -y
 apt-get install php5-mysql -y
+apt-get install php5-curl -y
 
 # Pear
 apt-get install php-pear -y
@@ -26,7 +27,7 @@ pecl install xdebug
 # XSL Extension
 apt-get install php5-xsl
 
-# PHPUnit 3.5.14
+# PHPUnit
 pear channel-discover pear.phpunit.de
 pear channel-discover components.ez.no
 pear channel-discover pear.symfony-project.com
@@ -44,10 +45,10 @@ pear install PHP_CodeSniffer
 pear install PhpDocumentor
 
 # PHP Sqlite
-apt-get install php5-sqlite -y
+#apt-get install php5-sqlite -y
 
 # PHP Curl
 apt-get install curl libcurl3 libcurl3-dev php5-curl -y
 
 #Git
-sudo apt-get install git
+sudo apt-get install git -y
