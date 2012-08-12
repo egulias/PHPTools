@@ -51,4 +51,7 @@ pear install PhpDocumentor
 apt-get install curl libcurl3 libcurl3-dev php5-curl -y
 
 #Git
-sudo apt-get install git -y
+apt-get install git -y
+
+#Vim
+apt-get install vim -y
