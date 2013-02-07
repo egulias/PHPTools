@@ -17,10 +17,6 @@ apt-get install php-pear -y
 pear channel-update pear.php.net
 pear upgrade-all
 
-# Phing
-pear channel-discover pear.phing.info
-pear install phing/phing
-
 # Xdebug
 pecl install xdebug
 
@@ -30,7 +26,6 @@ apt-get install php5-xsl
 # PHPUnit
 pear channel-discover pear.phpunit.de
 pear channel-discover components.ez.no
-pear channel-discover pear.symfony-project.com
 pear install phpunit/PHPUnit-beta
 apt-get install phpunit -y
 
@@ -48,7 +43,7 @@ pear install PhpDocumentor
 #apt-get install php5-sqlite -y
 
 # PHP Curl
-apt-get install curl libcurl3 libcurl3-dev php5-curl -y
+apt-get install curl libcurl3 libcurl3-dev -y
 
 #Git
 apt-get install git -y
