@@ -15,7 +15,7 @@ apt-get install php5-curl -y
 # Pear
 apt-get install php-pear -y
 pear channel-update pear.php.net
-pear upgrade-all
+
 
 # Xdebug
 pecl install xdebug
@@ -36,8 +36,14 @@ pear install pdepend/PHP_Depend-beta
 # PHP Code Sniffer
 pear install PHP_CodeSniffer
 
+#PHP Mess Detector
+pear channel-discover pear.phpmd.org
+pear install phpmd/PHP_PMD
+
 # PHP Documentor
 pear install PhpDocumentor
+
+pear upgrade-all
 
 # PHP Sqlite
 #apt-get install php5-sqlite -y
